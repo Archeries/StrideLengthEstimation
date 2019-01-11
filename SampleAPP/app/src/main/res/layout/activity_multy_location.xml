@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.amap.api.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.amap.api.maps.MapView>
+    
+    <com.wzg.dingwei.MapView
+        android:id="@+id/custMap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.wzg.dingwei.MapView>
+    
+   <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal" >
+         
+ <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/gps_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/grey"
+        android:orientation="horizontal" 
+        >
+        <RadioButton
+            android:id="@+id/gps_locate_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/gpslocate"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/gps_follow_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/gpsfollow"
+            android:textColor="@color/black" />
+    </RadioGroup>
+    
+    	<Button
+    	    android:id="@+id/initpos_button"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginTop="12dip"
+    	    android:text="@string/initpos"
+    	    android:textSize="12sp"
+    	    android:visibility="visible" />
+
+		 <Button
+		    android:id="@+id/connect_button"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="12dip"
+		    android:text="@string/connect"
+		    android:textSize="12sp" />
+<!--				    
+		 <Button
+		    android:id="@+id/disconnect_button"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="12dip"
+		    android:onClick="disconnectClick"
+		    android:text="@string/disconnect"
+		    android:textSize="12sp" />
+    -->	  		    
+		 <Button
+		    android:id="@+id/debug_button"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="12dip"
+		    android:text="@string/save"
+		    android:textSize="12sp" 
+			android:visibility="gone" />
+		    
+    
+		<Button
+		    android:id="@+id/mapType"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="12dip"
+		    android:text="@string/map_sat"
+		    android:textSize="12sp" />
+
+ </LinearLayout>		    
+
+
+	<View   android:id="@+id/view1"
+            android:layout_width="0dp"
+            android:layout_height="1dip"
+            android:layout_weight="1" />
+
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      
+     >
+    <View
+      	 android:layout_width="1dp"
+         android:layout_height="80dip"/>  
+    <!--     
+    <android.view.SurfaceView
+     android:id="@+id/camera_preview"
+     android:layout_width="100dp"
+     android:layout_height="100dp"/>
+   -->
+      
+	 <CheckBox
+	     android:id="@+id/adjustbtn"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:checked="true"
+	     android:selectAllOnFocus="true"
+	     android:text="校正" 
+	     android:visibility="gone" 
+	     />
+
+		<NumberPicker
+		    android:id="@+id/numpicker"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:visibility="gone" />
+
+		<Button
+		    android:id="@+id/reset"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="12dip"
+		    android:text="@string/reset"
+		    android:textSize="12sp" />
+				<Button
+		    android:id="@+id/initFloor"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="12dip"
+		    android:text="initFloor"
+		    android:textSize="12sp" />
+
+  </LinearLayout>
+         
+   </LinearLayout>
+		    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        
+        <View
+            android:id="@+id/view2"
+            android:layout_width="1dp"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/currentfloor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:textIsSelectable="true"
+            android:text="singaldata" />
+
+        <TextView
+            android:id="@+id/currentState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="singaldata" />
+                <TextView
+            android:id="@+id/sensordata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sensordata" />
+
+		<TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:text="" />
+        <ImageView
+            android:id="@+id/blueImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bluetoothgray32" />
+  <!--      
+		<Button
+		    android:id="@+id/zoomIn"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="12dip"
+		    android:onClick="zoomClick"
+		    android:text="@string/zoomIn"
+		    android:textSize="12sp"    />
+		<Button
+		    android:id="@+id/zoomOut"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="12dip"
+		    android:onClick="zoomClick"
+		    android:text="@string/zoomOut"
+		    android:textSize="12sp" />		    
+-->		    
+		<Button
+		    android:id="@+id/blue"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="12dip"
+		    android:onClick="blueClick"
+		    android:text="@string/blue"
+		    android:textSize="12sp" 
+		    android:visibility="gone" 
+		    />
+		
+    </LinearLayout>
+
+</FrameLayout>

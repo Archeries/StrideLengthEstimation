@@ -1,0 +1,154 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.amap.location.demo.StartActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/whiteborder" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/start_margin_vertical"
+            android:layout_marginLeft="@dimen/start_title_margin_left"
+            android:layout_marginTop="@dimen/start_margin_vertical"
+            android:text="@string/weather_forecast_title"
+            android:textColor="@color/black"
+            android:textSize="@dimen/start_title_font_size" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/current_weather_report_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/start_content_marginleft"
+        android:paddingBottom="@dimen/start_content_vertical"
+        android:paddingTop="@dimen/start_content_vertical"
+        android:text="@string/weather_forecast_current"
+        android:textColor="@color/black"
+        android:textSize="@dimen/start_content_font_size" 
+          android:background="@drawable/border"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginLeft="@dimen/start_content_marginleft"
+        android:background="@color/black" >
+    </View>
+
+    <TextView
+        android:id="@+id/future_weather_report_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/start_content_marginleft"
+        android:paddingBottom="@dimen/start_content_vertical"
+        android:paddingTop="@dimen/start_content_vertical"
+        android:text="@string/weather_forecast_future"
+        android:textColor="@color/black"
+        android:textSize="@dimen/start_content_font_size" 
+          android:background="@drawable/border"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/whiteborder" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/start_content_vertical"
+            android:layout_marginLeft="@dimen/start_title_margin_left"
+            android:layout_marginTop="@dimen/start_content_vertical"
+            android:text="@string/location_title"
+            android:textColor="@color/black"
+            android:textSize="@dimen/start_title_font_size" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/location_net_method_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/start_content_marginleft"
+        android:paddingBottom="@dimen/start_content_vertical"
+        android:paddingTop="@dimen/start_content_vertical"
+        android:text="@string/location_net_method"
+        android:textColor="@color/black"
+        android:textSize="@dimen/start_content_font_size" 
+          android:background="@drawable/border"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginLeft="@dimen/start_content_marginleft"
+        android:background="@color/black" >
+    </View>
+
+    <TextView
+        android:id="@+id/location_multy_method_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/start_content_marginleft"
+        android:paddingBottom="@dimen/start_content_vertical"
+        android:paddingTop="@dimen/start_content_vertical"
+        android:text="@string/location_mulity_method"
+        android:textColor="@color/black"
+        android:textSize="@dimen/start_content_font_size" 
+          android:background="@drawable/border"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginLeft="@dimen/start_content_marginleft"
+        android:background="@color/black" >
+    </View>
+
+    <TextView
+        android:id="@+id/location_gps_method_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/start_content_marginleft"
+        android:paddingBottom="@dimen/start_content_vertical"
+        android:paddingTop="@dimen/start_content_vertical"
+        android:text="@string/location_gps_method"
+        android:textColor="@color/black"
+        android:textSize="@dimen/start_content_font_size"
+          android:background="@drawable/border"
+         />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginLeft="@dimen/start_content_marginleft"
+        android:background="@color/black" >
+    </View>
+
+    <TextView
+        android:id="@+id/location_geofence_method_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/start_content_marginleft"
+        android:paddingBottom="@dimen/start_content_vertical"
+        android:paddingTop="@dimen/start_content_vertical"
+        android:text="@string/location_geofence_method"
+        android:textColor="@color/black"
+        android:textSize="@dimen/start_content_font_size" 
+         android:background="@drawable/border"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/black" />
+
+</LinearLayout>

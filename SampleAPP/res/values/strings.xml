@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">单兵定位v2.0RS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="weather_forecast_title">天气预报</string>
+    <string name="weather_forecast_current">实时天气预报</string>
+    <string name="weather_forecast_future">未来天气预报</string>
+    <string name="location_title">定位</string>
+    <string name="location_net_method">网络（基站+WIFI）定位</string>
+    <string name="location_mulity_method">混合定位（GPS+网络）</string>
+    <string name="location_gps_method">GPS定位（建议室外使用）</string>
+    <string name="location_geofence_method">地理围栏（警戒区域提醒）</string>
+    <string name="current_weather_report_title">实时天气</string>
+    <string name="future_weather_report_title">天气预报</string>
+    <string name="net_location_title">网络定位</string>
+    <string name="gps_location_title">GPS定位</string>
+    <string name="superman_title">来 吧 !</string>
+    <string name="superman_content">让我把你的应用变的能听会说吧！</string>
+    <string name="cancel">取 消</string>
+    <string name="ok">确 定</string>
+    <string name="simpleBg">简单背景</string>
+    <string name="mapBg">地图背景</string>
+    <string name="zoomIn">放大</string>
+    <string name="zoomOut">缩小</string>
+    <string name="map_style">类型</string>
+    <string name="map_sat">卫              星</string>
+    <string name="map_normal">正常</string>
+    <string name="save">保           存</string>
+    <string name="connect">链            接</string>
+    <string name="disconnect">断           开</string>
+    <string name="connected">已 链 接</string>
+    <string name="connecting">链 接 中</string>
+    <string name="initpos">初始定位</string>
+    <string name="initFinish">初始返回</string>
+    <string name="cancle">取消</string>
+    <string name="reset">重置</string>
+    <string name="weather_location">"地      点："</string>
+    <string name="weather_weather">"天      气："</string>
+    <string name="weather_temperature">"气      温："</string>
+    <string name="weather_wind_direction">"风      向："</string>
+    <string name="weather_wind_power">"风      力："</string>
+    <string name="weather_air_humidity">空气湿度：</string>
+    <string name="weather_weather_publish">发布时间：</string>
+    <string name="location_latlng">"坐      标："</string>
+    <string name="location_accurancy">"精      度："</string>
+    <string name="location_method">定位方式：</string>
+    <string name="location_time">定位时间：</string>
+    <string name="location_description">位置描述：</string>
+    <string name="location_country">国&#160;&#160;&#160;&#160;&#160;&#160;家 ：</string>
+    <string name="location_province">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;省 ：</string>
+    <string name="location_city">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;市   ：</string>
+    <string name="location_county">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;区 ：</string>
+    <string name="location_road">街&#160;&#160;&#160;&#160;&#160;&#160;道   ：</string>
+    <string name="location_poi">POI名称 ：</string>
+    <string name="location_city_code">城市编码：</string>
+    <string name="location_area_code">区域编码：</string>
+    <string name="gpsfollow">追随</string>
+    <string name="gpslocate">定位</string>
+    <string name="gpsrotate">旋转</string>
+    <string name="location_des_open_text">是否打开位置信息描述：</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="geofence_des">点击地图，以点击点为中心建立地理围栏，再次点击地图修改地理围栏位置</string>
+
+    <string-array name="abnf_engine_entries">
+        <item>本地识别</item>
+        <item>在线识别</item>
+    </string-array>
+    <string-array name="engine_entries">
+        <item>本地合成</item>
+        <item>在线合成</item>
+    </string-array>
+    <string-array name="engine_values">
+        <item>local</item>
+        <item>cloud</item>
+    </string-array>
+    <!-- 转写 -->
+    <string-array name="language_entries">
+        <item>普通话</item>
+        <item>粤语</item>
+        <item>英语</item>
+    </string-array>
+    <string-array name="language_values">
+        <item>zh_cn</item>
+        <item>zh_tw</item>
+        <item>en_us</item>
+    </string-array>
+    <string-array name="punc_entries">
+        <item>有标点</item>
+        <item>无标点</item>
+    </string-array>
+    <string-array name="punc_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+    <string name="blue">蓝牙</string>
+    <string name="options">Options</string>
+    <string name="quit">Quit</string>
+    <string name="description">Capture live video and audio streaming from your smartphone with Spydroid</string>
+    <string name="line1">In chrome or firefox type</string>
+    <string name="line2">In VLC open</string>
+    <string name="options_activity_title">Settings</string>
+    <string name="warning">Turn on wifi or tethering !</string>
+    <string name="streaming">Streaming !</string>
+    <string name="bitrate">0 kbps</string>
+    <string name="notification_title">Spydroid</string>
+    <string name="notification_content">Beware ! Spydroid is running ;)</string>
+    <string name="preview">Start a stream to enable the preview !</string>
+    <string name="about0">Spydroid is a fun and open source application !</string>
+    <string name="about1">If you don\'t understand how to use it, the google page of the project contains a FAQ. For example, you will find explanations on how to play the stream in VLC</string>
+    <string name="about2">Don\'t forget to rate the app, it\'s really important, your life depends on it !</string>
+    <string name="about3">You might also like it on facebook, why not ? Come on, like it ! It will be our little secret</string>
+    <string name="about4">Have Fun !</string>
+    <string name="about5">Help me to translate Spydroid in other languages ! If you are willing to help me in this crazy quest, send me a mail :)</string>
+    <string name="settings0">The current resolution is</string>
+    <string name="settings1">The current framerate is</string>
+    <string name="settings2">The current bitrate is</string>
+    <string name="settings3">Sound streaming</string>
+    <string name="settings4">Enable/Disable audio streaming</string>
+    <string name="settings5">Audio encoder</string>
+    <string name="settings6">AAC requires at least ICS</string>
+    <string name="settings7">Video streaming</string>
+    <string name="settings8">Enable/Disable video streaming</string>
+    <string name="settings9">Video encoder</string>
+    <string name="settings10">Two video compression algorithms are available: H.263 and H.264</string>
+    <string name="settings11">Resolution</string>
+    <string name="settings12">Framerate</string>
+    <string name="settings13">Bitrate</string>
+    <string name="settings14">More options</string>
+    <string name="settings15">Notification</string>
+    <string name="settings16">Enable/Disable the notification</string>
+    <string name="settings19">HTTP server</string>
+    <string name="settings20">HTTP server port</string>
+    <string name="settings21">Port used by the HTTP server</string>
+    <string name="settings22">Enabled</string>
+    <string name="settings23">Enable/Disable the HTTP server. Leave it on if you don\'t know what you are doing !</string>
+    <string name="settings24">Use HTTPS</string>
+    <string name="settings25">NOT STABLE YET !</string>
+    <string name="settings26">HTTPS server port</string>
+    <string name="settings27">Port used by the HTTPS server</string>
+    <string name="settings28">RTSP server</string>
+    <string name="settings29">Enabled</string>
+    <string name="settings30">Useful to use Spydroid directly with VLC</string>
+    <string name="settings31">RTSP server port</string>
+    <string name="settings32">Port used by the RTSP server</string>
+    <string name="bind_failed">You need to choose another port for the %s server !</string>
+    <string name="port_used">Port already in use !</string>
+    <string name="page0">主视图</string>
+    <string name="page1">视频</string>
+    <string name="page2">关于</string>
+    <string name="title_activity_sample">SampleActivity</string>
+    <string name="title_activity_fire_man">FireManActivity</string>
+
+</resources>

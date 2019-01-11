@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/messageinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text=""
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/floorNum"
+        android:layout_marginTop="30dp"
+        android:text="Floor Height(Decimal):"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/resetButton"
+        android:layout_marginTop="30dp"
+        android:text="Floor Number(Integer) :"
+        android:textSize="15sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_above="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:background="#000000" />
+
+    <EditText
+        android:id="@+id/floorHeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/floorNum"
+        android:ems="8" />
+
+    <EditText
+        android:id="@+id/floorNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_toRightOf="@+id/textView1"
+        android:ems="8" />
+
+    <Button
+        android:id="@+id/addInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/isEmptyFloor"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/isEmptyFloor"
+        android:text="Add" />
+
+    <CheckBox
+        android:id="@+id/isEmptyFloor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="30dp"
+        android:text="Hollow floor?" />
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_above="@+id/button_setfloorbymanual"
+        android:layout_alignParentLeft="true"
+        android:background="#000000" />
+
+    <Button
+        android:id="@+id/button_setfloorbymanual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/finishConfigurationtextview"
+        android:enabled="true"
+        android:text="Manual Selection" />
+
+    <TextView
+        android:id="@+id/finishConfigurationtextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/finishConfiguration"
+        android:layout_centerHorizontal="true"
+        android:text="When the configuration is completed, please click the welcome button."
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/finishConfiguration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="14dp"
+  
+        android:text="Welcome" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_above="@+id/finishConfigurationtextview"
+        android:layout_alignParentLeft="true"
+        android:background="#000000" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/finishConfiguration"
+        android:layout_below="@+id/messageinfo"
+        android:layout_marginTop="50dp"
+        android:text="Reset" />
+
+
+</RelativeLayout>

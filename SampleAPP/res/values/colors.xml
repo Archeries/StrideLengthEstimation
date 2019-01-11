@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="grey"> #ebebeb</color>
+    <color name="black"> #000000</color>
+    <color name="darkgrey"> #C0C0C0</color>
+    <color name="white"> #FFFFFF</color>
+     <color name="red"> #FF0000</color>
+     <color name="darkyellow"> #FFCC33</color>
+     
+	<!-- 画面背景色 -->
+    <drawable name="layout_backgroud">#000000</drawable>
+    
+    <!-- 分割线背景色 -->
+    <drawable name="line_background">#161823</drawable>
+    
+    <!-- 控件按下时显示的颜色 -->
+    <color name="list_backgroud_color">#2fb3cb</color>
+    <color name="title_color">#0f8ec5</color>
+    <color name="content_color">#737373</color>
+</resources>

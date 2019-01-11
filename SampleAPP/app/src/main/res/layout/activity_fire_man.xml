@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView_showMessages"
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:layout_weight="1.09" >
+
+        <LinearLayout
+            android:id="@+id/scroll_child"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/et_dtw_Threshold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.09"
+                    android:ems="10"
+                    android:hint="DTW阈值"
+                    android:text="8000" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/Et_lengthThreshold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.09"
+                    android:ems="10"
+                    android:hint="长度阈值"
+                    android:text="15" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/et_startPointThreshold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.09"
+                    android:ems="10"
+                    android:hint="起点阈值"
+                    android:text="10" >
+                </EditText>
+                
+                              <EditText
+                    android:id="@+id/et_initDirection"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.09"
+                       android:ems="10"
+                    android:hint="初始方向"
+                    android:text="1000" >
+                </EditText>
+
+                <Button
+                    android:id="@+id/btn_init"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="初始化"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btn_calibrate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="calibrate"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btn_confirm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="confirm" />
+
+                <Button
+                    android:id="@+id/btn_review"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="重现"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btn_sample"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="采样"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/tv_3g"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="归一化" />
+
+                <ToggleButton
+                    android:id="@+id/toggleButton_normalize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@id/tv_3g"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:textOff="关"
+                    android:textOn="开" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_magnetic_direction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="magnetic  direction ："
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/btn_record"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="记录"
+                android:visibility="gone" />
+
+            <com.amap.api.maps.MapView
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="393dp" >
+            </com.amap.api.maps.MapView>
+
+            <TextView
+                android:id="@+id/TV_record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" " />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

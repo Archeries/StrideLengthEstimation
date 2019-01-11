@@ -1,0 +1,34 @@
+#
+# Proguard config for the demo project.
+#
+
+# Standard config from ADT
+
+-optimizationpasses 5
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-dontpreverify
+-verbose
+-optimizations !code/simplification/arithmetic,!field/*,!class/merging/*
+-ignorewarnings
+
+-libraryjars libs/AMap_3DMap_V2.4.0.jar
+-libraryjars libs/Android_Location_V1.3.1.jar
+
+
+
+# As described in tools/proguard/examples/android.pro - ignore all warnings.
+-dontwarn android.support.v4.**
+#如果有其它包有warning，在报出warning的包加入下面类似的-dontwarn 报名
+-dontwarn com.amap.api.**
+-dontwarn com.aps.**
+#高德相关混淆文件
+#3D 地图
+-keep   class com.amap.api.maps2d.**{*;} 
+-keep   class com.amap.api.maps.**{*;} 
+-keep   class com.autonavi.amap.mapcore.*{*;} 
+#Location
+-keep   class com.amap.api.location.**{*;} 
+-keep   class com.aps.**{*;} 
+#Service
+-keep   class com.amap.api.services.**{*;} 

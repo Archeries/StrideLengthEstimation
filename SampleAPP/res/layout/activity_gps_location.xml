@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/title_margin_vertical"
+            android:layout_marginTop="@dimen/title_margin_vertical"
+            android:text="@string/gps_location_title"
+            android:textColor="@color/black"
+            android:textSize="@dimen/title_font_size" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+       android:layout_height="0.1dp"
+        android:background="@color/black" >
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+         >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/content_margin_left"
+            android:text="@string/location_latlng"
+            android:textColor="@color/black"
+            android:textSize="@dimen/location_content_font_size" />
+
+        <TextView
+            android:id="@+id/gps_location_latlng_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/location_margin_left"
+            android:textColor="@color/black"
+            android:textSize="@dimen/location_content_font_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/content_margin_left"
+            android:text="@string/location_accurancy"
+            android:textColor="@color/black"
+            android:textSize="@dimen/location_content_font_size" />
+
+        <TextView
+            android:id="@+id/gps_location_accurancy_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/location_margin_left"
+            android:textColor="@color/black"
+            android:textSize="@dimen/location_content_font_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+          >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/content_margin_left"
+            android:text="@string/location_method"
+            android:textColor="@color/black"
+            android:textSize="@dimen/location_content_font_size" />
+
+        <TextView
+            android:id="@+id/gps_location_method_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/location_margin_left"
+            android:textColor="@color/black"
+            android:textSize="@dimen/location_content_font_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+          >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/content_margin_left"
+            android:text="@string/location_time"
+            android:textColor="@color/black"
+            android:textSize="@dimen/location_content_font_size" />
+
+        <TextView
+            android:id="@+id/gps_location_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/location_margin_left"
+            android:textColor="@color/black"
+            android:textSize="@dimen/location_content_font_size" />
+    </LinearLayout>
+
+
+</LinearLayout>

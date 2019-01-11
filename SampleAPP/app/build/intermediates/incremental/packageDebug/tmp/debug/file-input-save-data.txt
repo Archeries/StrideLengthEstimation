@@ -1,0 +1,31 @@
+#Internal package file, do not edit.
+#Fri Jan 11 11:42:45 CST 2019
+2.base=F\:\\WorkPlace\\Stride-length-benchmark-dataset-Sample-APP\\XFBT433-424Hz-602\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+5.set=NATIVE_RESOURCE
+0.path=modelfile.mix
+2.baseType=DIRECTORY
+3.base=F\:\\WorkPlace\\Stride-length-benchmark-dataset-Sample-APP\\XFBT433-424Hz-602\\app\\build\\intermediates\\assets\\debug
+2.set=DEX
+1.path=SpeechService.apk
+4.base=F\:\\WorkPlace\\Stride-length-benchmark-dataset-Sample-APP\\XFBT433-424Hz-602\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+count=7
+5.baseType=DIRECTORY
+2.path=classes.dex
+5.base=F\:\\WorkPlace\\Stride-length-benchmark-dataset-Sample-APP\\XFBT433-424Hz-602\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+4.set=NATIVE_RESOURCE
+3.path=magData/train.txt
+6.base=F\:\\WorkPlace\\Stride-length-benchmark-dataset-Sample-APP\\XFBT433-424Hz-602\\app\\build\\intermediates\\assets\\debug
+3.baseType=DIRECTORY
+1.set=ASSET
+4.path=lib/armeabi/libamapv304ex.so
+6.set=ASSET
+1.baseType=DIRECTORY
+6.baseType=DIRECTORY
+5.path=lib/armeabi/libamapv304.so
+0.base=F\:\\WorkPlace\\Stride-length-benchmark-dataset-Sample-APP\\XFBT433-424Hz-602\\app\\build\\intermediates\\assets\\debug
+0.baseType=DIRECTORY
+3.set=ASSET
+6.path=floorInfo.mix
+1.base=F\:\\WorkPlace\\Stride-length-benchmark-dataset-Sample-APP\\XFBT433-424Hz-602\\app\\build\\intermediates\\assets\\debug
+4.baseType=DIRECTORY
+0.set=ASSET

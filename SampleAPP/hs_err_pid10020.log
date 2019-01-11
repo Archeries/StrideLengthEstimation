@@ -1,0 +1,131 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:124), pid=10020, tid=9956
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version:  (8.0_05-b13) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.5-b02 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000025e0800):  JavaThread "Unknown thread" [_thread_in_vm, id=9956, stack(0x00000000024e0000,0x00000000025e0000)]
+
+Stack: [0x00000000024e0000,0x00000000025e0000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x308dea]
+V  [jvm.dll+0x25def1]
+V  [jvm.dll+0x25eb0f]
+V  [jvm.dll+0x256466]
+V  [jvm.dll+0x5d33c]
+V  [jvm.dll+0x5d433]
+V  [jvm.dll+0x71d2a]
+V  [jvm.dll+0x72088]
+V  [jvm.dll+0xe1607]
+V  [jvm.dll+0xe1996]
+V  [jvm.dll+0x1f13e7]
+V  [jvm.dll+0x2227c4]
+V  [jvm.dll+0x149f71]
+C  [javaw.exe+0x208a]
+C  [javaw.exe+0xc9db]
+C  [javaw.exe+0xca6f]
+C  [KERNEL32.DLL+0x18102]
+C  [ntdll.dll+0x5c264]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00000000025e0800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=9956, stack(0x00000000024e0000,0x00000000025e0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.007 loading class java/lang/CharSequence done
+Event: 0.008 loading class java/lang/String done
+Event: 0.008 loading class java/lang/Class
+Event: 0.008 loading class java/lang/reflect/AnnotatedElement
+Event: 0.008 loading class java/lang/reflect/AnnotatedElement done
+Event: 0.008 loading class java/lang/reflect/GenericDeclaration
+Event: 0.008 loading class java/lang/reflect/GenericDeclaration done
+Event: 0.008 loading class java/lang/reflect/Type
+Event: 0.008 loading class java/lang/reflect/Type done
+Event: 0.008 loading class java/lang/Class done
+
+
+Dynamic libraries:
+0x00007ff6e45b0000 - 0x00007ff6e45e4000 	C:\Program Files\Java\jre8\bin\javaw.exe
+0x00007ff9b8d90000 - 0x00007ff9b8f51000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ff9b6760000 - 0x00007ff9b680d000 	C:\WINDOWS\system32\KERNEL32.DLL
+0x00007ff9b54d0000 - 0x00007ff9b56b8000 	C:\WINDOWS\system32\KERNELBASE.dll
+0x00007ff9b64d0000 - 0x00007ff9b6577000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x00007ff9b7290000 - 0x00007ff9b732d000 	C:\WINDOWS\system32\msvcrt.dll
+0x00007ff9b6700000 - 0x00007ff9b675b000 	C:\WINDOWS\system32\sechost.dll
+0x00007ff9b6d80000 - 0x00007ff9b6e9c000 	C:\WINDOWS\system32\RPCRT4.dll
+0x00007ff9b6590000 - 0x00007ff9b66e6000 	C:\WINDOWS\system32\USER32.dll
+0x00007ff9b6190000 - 0x00007ff9b6316000 	C:\WINDOWS\system32\GDI32.dll
+0x00007ff9b1590000 - 0x00007ff9b1804000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.10586.0_none_8c15ae12515e1c22\COMCTL32.dll
+0x00007ff9b6eb0000 - 0x00007ff9b712d000 	C:\WINDOWS\system32\combase.dll
+0x00007ff9b6070000 - 0x00007ff9b60da000 	C:\WINDOWS\system32\bcryptPrimitives.dll
+0x00007ff9b8cf0000 - 0x00007ff9b8d2b000 	C:\WINDOWS\system32\IMM32.DLL
+0x0000000071940000 - 0x0000000071a12000 	C:\Program Files\Java\jre8\bin\msvcr100.dll
+0x0000000071110000 - 0x000000007193a000 	C:\Program Files\Java\jre8\bin\server\jvm.dll
+0x00007ff9b6ea0000 - 0x00007ff9b6ea8000 	C:\WINDOWS\system32\PSAPI.DLL
+0x00007ff9af240000 - 0x00007ff9af249000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ff9b3190000 - 0x00007ff9b31b3000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ff9b68e0000 - 0x00007ff9b694b000 	C:\WINDOWS\system32\WS2_32.dll
+0x00007ff9b30b0000 - 0x00007ff9b30dc000 	C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+0x00007ff9b6020000 - 0x00007ff9b6063000 	C:\WINDOWS\system32\cfgmgr32.dll
+0x0000000071100000 - 0x000000007110f000 	C:\Program Files\Java\jre8\bin\verify.dll
+0x00000000710d0000 - 0x00000000710f8000 	C:\Program Files\Java\jre8\bin\java.dll
+0x00000000710b0000 - 0x00000000710c6000 	C:\Program Files\Java\jre8\bin\zip.dll
+0x00007ff99d810000 - 0x00007ff99d99c000 	C:\WINDOWS\SYSTEM32\dbghelp.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=UTF-8 -Xbootclasspath:E:\adt-bundle-windows-x86_64-20140321\sdk\platforms\android-17\android.jar 
+java_command: com.ict.wq.CalculateAngleWq
+java_class_path (initial): F:\git\fire\XFBT433-1125\libs\AMap_3DMap_V2.4.0.jar;F:\git\fire\XFBT433-1125\libs\Android_Location_V1.3.1.jar;F:\git\fire\XFBT433-1125\libs\jxl.jar;F:\git\fire\XFBT433-1125\libs\SpeechApi.jar;F:\git\fire\XFBT433-1125\libs\android-support-v4.jar;F:\git\fire\XFBT433-1125\libs\javaml-0.1.7.jar;F:\git\fire\XFBT433-1125\libs\acra-4.4.0.jar;F:\git\fire\XFBT433-1125\bin\classes
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.8.0_05
+CLASSPATH=C:\Program Files\Java\jdk1.8.0_05\lib\dt.jar;C:\Program Files\Java\jdk1.8.0_05\lib\tools.jar
+PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\MATLAB\R2015b\runtime\win64;C:\Program Files\MATLAB\R2015b\bin;C:\Program Files\MATLAB\R2015b\polyspace\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_05\bin;C:\Program Files\Java\jdk1.8.0_05\jre\bin;C:\apache-tomcat-7.0.65\lib;C:\apache-tomcat-7.0.65\bin
+USERNAME=wq
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8.1 , 64 bit Build 9600 
+
+CPU:total 4 (4 cores per cpu, 1 threads per core) family 6 model 60 stepping 3, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, tsc, tscinvbit
+
+Memory: 4k page, physical 16713756k(8446684k free), swap 19204124k(10673540k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.5-b02) for windows-amd64 JRE (1.8.0_05-b13), built on Mar 18 2014 01:08:39 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Tue Dec 08 18:00:05 2015
+elapsed time: 0 seconds
+

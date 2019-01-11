@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" > 
+        <ListPreference
+            android:key="engine_preference"
+            android:title="合成引擎选择"
+            android:entries="@array/engine_entries"
+            android:entryValues="@array/engine_values"
+            android:defaultValue="local" /> 
+        
+        <ListPreference
+            android:key="role_cn_preference"
+            android:title="本地合成发音人" /> 
+            
+<!--        <ListPreference
+            android:key="role_en_preference"
+            android:title="英文发音人"
+            android:entries="@array/role_en_entries"
+            android:entryValues="@array/role_en_values"
+            android:defaultValue="5" />-->  
+        
+<!--      <ListPreference
+            android:key="effect_preference"
+            android:title="音效"
+            android:entries="@array/effect_entries"
+            android:entryValues="@array/effect_values"
+            android:defaultValue="6" />  -->   
+       
+        <EditTextPreference   		      
+		    android:key="speed_preference"   
+		    android:title="语速" 
+		    android:dialogTitle="请输入语速(0-100)" />
+        
+        <EditTextPreference   		      
+		    android:key="pitch_preference"   
+		    android:title="音调" 
+		    android:dialogTitle="请输入音调(0-100)" />
+        
+        <EditTextPreference   		      
+		    android:key="volume_preference"   
+		    android:title="音量" 
+		    android:dialogTitle="请输入音量(0-100)" />
+
+<!--          <ListPreference -->
+<!--             android:key="stream_preference" -->
+<!--             android:title="音频流类型" -->
+<!--             android:entries="@array/stream_entries" -->
+<!--             android:entryValues="@array/stream_values" -->
+<!--             android:defaultValue="3" />  -->
+            
+ <!--       <ListPreference
+            android:key="rolemsc_preference"
+            android:title="在线合成发音人"
+            android:entries="@array/rolemsc_entries"
+            android:entryValues="@array/rolemsc_values"
+            android:defaultValue="vixx" /> -->   
+</PreferenceScreen>

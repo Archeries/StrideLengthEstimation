@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+<TextView
+android:id="@+id/widget37"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Server:"
+>
+</TextView>
+<EditText
+android:id="@+id/serverEdt"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text=""
+android:textSize="18sp"
+>
+</EditText>
+<TextView
+android:id="@+id/widget39"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="port:"
+>
+</TextView>
+<EditText
+android:id="@+id/portEdt"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text=""
+android:textSize="18sp"
+>
+</EditText>
+</TableLayout>
+

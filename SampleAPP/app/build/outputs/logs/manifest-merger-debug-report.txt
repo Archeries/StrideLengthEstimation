@@ -1,0 +1,213 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:2:1-103:12
+INJECTED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:2:1-103:12
+INJECTED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:2:1-103:12
+INJECTED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:2:1-103:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\wq\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\b6ec99426eda0654de8614afc9982ca7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\wq\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\2a44bcae08e2263ad31f911ce296bf5c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\wq\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\bd928eba5987c08ba4904e32cfb3bb06\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\wq\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\e7a2e42c678da2e3a652cf86b4361b85\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\wq\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\1b01ffd3e07c4d0243be0af39ac6ffd1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\wq\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\8c670610eaecf24e56578e01c508b194\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\wq\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\357dd60b8176e1ba31cd6553cf9e09d8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\wq\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\d6843d3e1c37c44e2426d5a243f946b4\AndroidManifest.xml:17:1-24:12
+INJECTED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:2:1-103:12
+INJECTED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:2:1-103:12
+INJECTED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:2:1-103:12
+	package
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml
+		INJECTED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:7:5-30
+		INJECTED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml
+		INJECTED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:4:5-39
+	xmlns:android
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:6:5-28
+		INJECTED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml
+		INJECTED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml
+	android:installLocation
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:5:5-45
+uses-sdk
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:9:5-11:41
+INJECTED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:9:5-11:41
+INJECTED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:9:5-11:41
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\wq\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\b6ec99426eda0654de8614afc9982ca7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\wq\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\b6ec99426eda0654de8614afc9982ca7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\wq\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\2a44bcae08e2263ad31f911ce296bf5c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\wq\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\2a44bcae08e2263ad31f911ce296bf5c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\wq\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\bd928eba5987c08ba4904e32cfb3bb06\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\wq\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\bd928eba5987c08ba4904e32cfb3bb06\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\wq\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\e7a2e42c678da2e3a652cf86b4361b85\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\wq\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\e7a2e42c678da2e3a652cf86b4361b85\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\wq\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\1b01ffd3e07c4d0243be0af39ac6ffd1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\wq\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\1b01ffd3e07c4d0243be0af39ac6ffd1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\wq\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\8c670610eaecf24e56578e01c508b194\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\wq\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\8c670610eaecf24e56578e01c508b194\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\wq\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\357dd60b8176e1ba31cd6553cf9e09d8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\wq\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\357dd60b8176e1ba31cd6553cf9e09d8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\wq\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\d6843d3e1c37c44e2426d5a243f946b4\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\wq\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\d6843d3e1c37c44e2426d5a243f946b4\AndroidManifest.xml:20:5-22:41
+INJECTED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:9:5-11:41
+INJECTED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:9:5-11:41
+	android:targetSdkVersion
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:11:9-38
+		INJECTED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml
+		INJECTED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:10:9-35
+		INJECTED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml
+		INJECTED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml
+application
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:13:5-73:19
+	android:label
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:17:9-67
+	android:icon
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:16:9-45
+	android:allowBackup
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:15:9-35
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:14:9-73
+meta-data#com.amap.api.v2.apikey
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:18:9-20:64
+	android:value
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:20:13-61
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:19:13-50
+activity#com.amap.location.demo.Launcher
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:31:9-37:20
+	android:screenOrientation
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:35:13-49
+	android:label
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:33:13-45
+	android:launchMode
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:34:13-48
+	android:theme
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:36:13-77
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:32:13-59
+activity#net.majorkernelpanic.spydroid.ui.SpydroidActivity
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:38:9-42:20
+	android:label
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:40:13-45
+	android:theme
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:41:13-66
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:39:13-77
+activity#com.ict.wq.PolylineActivity
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:43:9-47:20
+	android:label
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:45:13-45
+	android:theme
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:46:13-66
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:44:13-55
+activity#com.example.floor_identify_combine.MainActivity
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:48:9-57:20
+	android:label
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:50:13-45
+	android:theme
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:51:13-66
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:49:13-75
+activity#com.amap.location.demo.FireManActivity
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:59:9-68:20
+	android:label
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:61:13-45
+	android:theme
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:62:13-66
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:60:13-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:63:13-67:29
+action#android.intent.action.MAIN
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:64:17-69
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:64:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:66:17-77
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:66:27-74
+service#com.ict.gpsmodule.GPSLocationService
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:69:9-70:19
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:69:18-69
+uses-permission#android.permission.INTERNET
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:75:5-67
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:75:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:76:5-81
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:76:22-78
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:77:5-81
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:77:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:78:5-79
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:78:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:79:5-79
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:79:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:80:5-75
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:80:22-72
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:81:5-76
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:81:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:82:5-76
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:82:22-73
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:83:5-79
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:83:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:84:5-68
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:84:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:88:5-74
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:88:22-71
+uses-permission#android.permission.BLUETOOTH
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:89:5-68
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:89:22-65
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:90:5-73
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:90:22-70
+uses-permission#android.permission.CAMERA
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:91:5-65
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:91:22-62
+uses-permission#android.permission.VIBRATE
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:94:2-63
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:94:19-60
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:95:2-81
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:95:19-78
+uses-feature#android.hardware.camera
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:98:5-60
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:98:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:99:5-101:36
+	android:required
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:101:9-33
+	android:name
+		ADDED from F:\WorkPlace\Stride-length-benchmark-dataset-Sample-APP\XFBT433-424Hz-602\app\src\main\AndroidManifest.xml:100:9-57

@@ -1,0 +1,4 @@
+#Fri Jan 11 11:42:44 CST 2019
+base.0=F\:\\WorkPlace\\Stride-length-benchmark-dataset-Sample-APP\\XFBT433-424Hz-602\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,423 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* .idea\
+* .idea\workspace.xml
+* app\
+* app\build.gradle
+* app\libs\
+* app\libs\AMap_3DMap_V2.4.0.jar
+* app\libs\Android_Location_V1.3.1.jar
+* app\libs\Jama-1.0.3.jar
+* app\libs\SpeechApi.jar
+* app\libs\acra-4.4.0.jar
+* app\libs\commons-math3-3.5.jar
+* app\libs\jxl.jar
+* app\lint.xml
+* app\proguard-project.txt
+* app\src\
+* app\src\main\
+* app\src\main\AndroidManifest.xml
+* app\src\main\assets\
+* app\src\main\assets\SpeechService.apk
+* app\src\main\assets\floorInfo.mix
+* app\src\main\assets\magData\
+* app\src\main\assets\magData\train.txt
+* app\src\main\assets\modelfile.mix
+* app\src\main\java\
+* app\src\main\java\cn\
+* app\src\main\java\cn\ac\
+* app\src\main\java\cn\ac\ict\
+* app\src\main\java\cn\ac\ict\ictips\
+* app\src\main\java\cn\ac\ict\ictips\locating\
+* app\src\main\java\cn\ac\ict\ictips\locating\entity\
+* app\src\main\java\cn\ac\ict\ictips\locating\entity\PositioningCoordinates.java
+* app\src\main\java\cn\ac\ict\ictips\locating\entity\PositioningResultListener.java
+* app\src\main\java\cn\ac\ict\ictips\locating\subPositioningEngines\
+* app\src\main\java\cn\ac\ict\ictips\locating\subPositioningEngines\LandMarkPositioningEngine\
+* app\src\main\java\cn\ac\ict\ictips\locating\subPositioningEngines\LandMarkPositioningEngine\Entity\
+* app\src\main\java\cn\ac\ict\ictips\locating\subPositioningEngines\LandMarkPositioningEngine\Entity\FloorInformation.java
+* app\src\main\java\cn\ac\ict\ictips\locating\subPositioningEngines\LandMarkPositioningEngine\Entity\PracticeService.java
+* app\src\main\java\cn\ac\ict\ictips\locating\subPositioningEngines\LandMarkPositioningEngine\LandmarkCorrectProvider.java
+* app\src\main\java\cn\ac\ict\ictips\locating\subPositioningEngines\LandMarkPositioningEngine\LandmarkProvider.java
+* app\src\main\java\cn\ac\ict\ictips\locating\subPositioningEngines\LandMarkPositioningEngine\Pipeline.java
+* app\src\main\java\cn\ac\ict\ictips\locating\subPositioningEngines\LandMarkPositioningEngine\pressurePredicting\
+* app\src\main\java\cn\ac\ict\ictips\locating\subPositioningEngines\LandMarkPositioningEngine\pressurePredicting\Bayes_predict.java
+* app\src\main\java\cn\ac\ict\ictips\locating\subPositioningEngines\LandMarkPositioningEngine\pressurePredicting\Floor_position_msg_p.java
+* app\src\main\java\cn\ac\ict\ictips\locating\subPositioningEngines\LandMarkPositioningEngine\pressurePredicting\Floor_positioning.java
+* app\src\main\java\cn\ac\ict\ictips\locating\subPositioningEngines\LandMarkPositioningEngine\pressurePredicting\Predict_press.java
+* app\src\main\java\com\
+* app\src\main\java\com\amap\
+* app\src\main\java\com\amap\location\
+* app\src\main\java\com\amap\location\demo\
+* app\src\main\java\com\amap\location\demo\FireManActivity.java
+* app\src\main\java\com\golshadi\
+* app\src\main\java\com\golshadi\orientationSensor\
+* app\src\main\java\com\golshadi\orientationSensor\math\
+* app\src\main\java\com\golshadi\orientationSensor\math\Matrix3x3.java
+* app\src\main\java\com\golshadi\orientationSensor\responseProvider\
+* app\src\main\java\com\golshadi\orientationSensor\responseProvider\orientationResponseProvider.java
+* app\src\main\java\com\golshadi\orientationSensor\sensors\
+* app\src\main\java\com\golshadi\orientationSensor\sensors\Isensor.java
+* app\src\main\java\com\golshadi\orientationSensor\sensors\Orientation.java
+* app\src\main\java\com\golshadi\orientationSensor\sensors\accelerometer.java
+* app\src\main\java\com\golshadi\orientationSensor\sensors\gyroscope.java
+* app\src\main\java\com\golshadi\orientationSensor\sensors\magnetic.java
+* app\src\main\java\com\golshadi\orientationSensor\utils\
+* app\src\main\java\com\golshadi\orientationSensor\utils\AppConstants.java
+* app\src\main\java\com\golshadi\orientationSensor\utils\OrientationSensorInterface.java
+* app\src\main\java\com\ict\
+* app\src\main\java\com\ict\fastDTW\
+* app\src\main\java\com\ict\fastDTW\dtw\
+* app\src\main\java\com\ict\fastDTW\dtw\CostMatrix.java
+* app\src\main\java\com\ict\fastDTW\dtw\DTW.java
+* app\src\main\java\com\ict\fastDTW\dtw\DTWWeight.java
+* app\src\main\java\com\ict\fastDTW\dtw\DTWbackup.java
+* app\src\main\java\com\ict\fastDTW\dtw\ExpandedResWindow.java
+* app\src\main\java\com\ict\fastDTW\dtw\FastDTW.java
+* app\src\main\java\com\ict\fastDTW\dtw\FullWindow.java
+* app\src\main\java\com\ict\fastDTW\dtw\LinearWindow.java
+* app\src\main\java\com\ict\fastDTW\dtw\MemoryResidentMatrix.java
+* app\src\main\java\com\ict\fastDTW\dtw\ParallelogramWindow.java
+* app\src\main\java\com\ict\fastDTW\dtw\PartialWindowMatrix.java
+* app\src\main\java\com\ict\fastDTW\dtw\SearchWindow.java
+* app\src\main\java\com\ict\fastDTW\dtw\SwapFileMatrix.java
+* app\src\main\java\com\ict\fastDTW\dtw\TimeWarpInfo.java
+* app\src\main\java\com\ict\fastDTW\dtw\WarpPath.java
+* app\src\main\java\com\ict\fastDTW\dtw\WarpPathWindow.java
+* app\src\main\java\com\ict\fastDTW\dtw\WindowMatrix.java
+* app\src\main\java\com\ict\fastDTW\lang\
+* app\src\main\java\com\ict\fastDTW\lang\TypeConversions.java
+* app\src\main\java\com\ict\fastDTW\matrix\
+* app\src\main\java\com\ict\fastDTW\matrix\Array2D.java
+* app\src\main\java\com\ict\fastDTW\matrix\ColMajorCell.java
+* app\src\main\java\com\ict\fastDTW\timeseries\
+* app\src\main\java\com\ict\fastDTW\timeseries\PAA.java
+* app\src\main\java\com\ict\fastDTW\timeseries\SineWave.java
+* app\src\main\java\com\ict\fastDTW\timeseries\TimeSeries.java
+* app\src\main\java\com\ict\fastDTW\timeseries\TimeSeriesPoint.java
+* app\src\main\java\com\ict\fastDTW\util\
+* app\src\main\java\com\ict\fastDTW\util\Arrays.java
+* app\src\main\java\com\ict\fastDTW\util\BinaryDistance.java
+* app\src\main\java\com\ict\fastDTW\util\DistanceFunction.java
+* app\src\main\java\com\ict\fastDTW\util\DistanceFunctionFactory.java
+* app\src\main\java\com\ict\fastDTW\util\EuclideanDistance.java
+* app\src\main\java\com\ict\fastDTW\util\ManhattanDistance.java
+* app\src\main\java\com\ict\gpsmodule\
+* app\src\main\java\com\ict\gpsmodule\Constant.java
+* app\src\main\java\com\ict\gpsmodule\CoordinateTransformer.java
+* app\src\main\java\com\ict\gpsmodule\Coordinator.java
+* app\src\main\java\com\ict\gpsmodule\GPSLocationService.java
+* app\src\main\java\com\ict\gpsmodule\MainActivity.java
+* app\src\main\java\com\ict\gpsmodule\TimeCoordinator.java
+* app\src\main\java\com\ict\gpsmodule\Vector.java
+* app\src\main\java\com\ict\gyroscopecalibrate\
+* app\src\main\java\com\ict\gyroscopecalibrate\Calibrate.java
+* app\src\main\java\com\ict\gyroscopecalibrate\GyroscopeOrientation.java
+* app\src\main\java\com\ict\gyroscopecalibrate\ImuOCfQuaternion.java
+* app\src\main\java\com\ict\gyroscopecalibrate\MRMpair.java
+* app\src\main\java\com\ict\gyroscopecalibrate\MeanFilterSmoothing.java
+* app\src\main\java\com\ict\gyroscopecalibrate\MinEnclosingBall.java
+* app\src\main\java\com\ict\gyroscopecalibrate\Orientation.java
+* app\src\main\java\com\ict\gyroscopecalibrate\OrientationInterface.java
+* app\src\main\java\com\ict\gyroscopecalibrate\Point.java
+* app\src\main\java\com\ict\gyroscopecalibrate\SensorDataLogFileReview.java
+* app\src\main\java\com\ict\gyroscopecalibrate\UpdateBMatrix.java
+* app\src\main\java\com\ict\ioDetect\
+* app\src\main\java\com\ict\ioDetect\DetectionProfile.java
+* app\src\main\java\com\ict\ioDetect\GPGSVMode.java
+* app\src\main\java\com\ict\ioDetect\IndoorOrOutdoor.java
+* app\src\main\java\com\ict\ioDetect\LightMode.java
+* app\src\main\java\com\ict\ioDetect\StatisticsUtil.java
+* app\src\main\java\com\ict\ioDetect\SunTimes.java
+* app\src\main\java\com\ict\ioDetect\TimeCompareUtil.java
+* app\src\main\java\com\ict\ioDetect\betweenDays.java
+* app\src\main\java\com\ict\iodetector\
+* app\src\main\java\com\ict\iodetector\service\
+* app\src\main\java\com\ict\iodetector\service\conf\
+* app\src\main\java\com\ict\iodetector\service\conf\Configuration.java
+* app\src\main\java\com\ict\iodetector\service\conf\Mode.java
+* app\src\main\java\com\ict\iodetector\service\conf\Threshold.java
+* app\src\main\java\com\ict\userstate\
+* app\src\main\java\com\ict\userstate\StillStateJudger.java
+* app\src\main\java\com\ict\wq\
+* app\src\main\java\com\ict\wq\AngleUtils.java
+* app\src\main\java\com\ict\wq\CalculateLocation2.java
+* app\src\main\java\com\ict\wq\Constant.java
+* app\src\main\java\com\ict\wq\Coordinate.java
+* app\src\main\java\com\ict\wq\DataAdaptor.java
+* app\src\main\java\com\ict\wq\DeepCopy.java
+* app\src\main\java\com\ict\wq\Direction.java
+* app\src\main\java\com\ict\wq\FusionTheta.java
+* app\src\main\java\com\ict\wq\LocationNetwork.java
+* app\src\main\java\com\ict\wq\LogUtil.java
+* app\src\main\java\com\ict\wq\MagCollectionProvider.java
+* app\src\main\java\com\ict\wq\MagCollectionProvider0603.java
+* app\src\main\java\com\ict\wq\MagneticSampleTimer.java
+* app\src\main\java\com\ict\wq\MagneticSampleTimerReview.java
+* app\src\main\java\com\ict\wq\Normalization.java
+* app\src\main\java\com\ict\wq\ResuiltDisplay.java
+* app\src\main\java\com\ict\wq\RotaingMagToFlat.java
+* app\src\main\java\com\ict\wq\Sample.java
+* app\src\main\java\com\ict\wq\SensorDataLogFile.java
+* app\src\main\java\com\ict\wq\SensorDataLogFile2.java
+* app\src\main\java\com\ict\wq\SensorDataLogFile3.java
+* app\src\main\java\com\ict\wq\SensorDataLogFileAccAndMag.java
+* app\src\main\java\com\ict\wq\SensorDataLogFileDB.java
+* app\src\main\java\com\ict\wq\SensorDataLogFileDTWresuilt.java
+* app\src\main\java\com\ict\wq\SensorDataLogFileFlat.java
+* app\src\main\java\com\ict\wq\SensorDataLogFileGPGSV.java
+* app\src\main\java\com\ict\wq\SensorDataLogFileMagVandMagH.java
+* app\src\main\java\com\ict\wq\SensorDataLogFileMagneticSamplerTimer.java
+* app\src\main\java\com\ict\wq\SensorDataLogFileOrigin.java
+* app\src\main\java\com\ict\wq\SensorDataLogFilePedometer.java
+* app\src\main\java\com\ict\wq\SensorDataLogFilePress.java
+* app\src\main\java\com\ict\wq\SensorDataLogFileProcessed.java
+* app\src\main\java\com\ict\wq\SensorDataLogFileRecord.java
+* app\src\main\java\com\ict\wq\SensorDataLogFileRecordCoordinate.java
+* app\src\main\java\com\ict\wq\SensorDataLogFileResample.java
+* app\src\main\java\com\ict\wq\SensorDataLogFileReview.java
+* app\src\main\java\com\ict\wq\SensorDataLogFileSize.java
+* app\src\main\java\com\ict\wq\SensorDataLogFileSpectrum.java
+* app\src\main\java\com\ict\wq\SensorDataLogFileTrajectory.java
+* app\src\main\java\com\ict\wq\SensorDataLogFiledecc.java
+* app\src\main\java\com\ict\wq\SimilarityFactor.java
+* app\src\main\java\com\ict\wq\Stair.java
+* app\src\main\java\com\ict\wq\StairCorrect2.java
+* app\src\main\java\com\ict\wq\StepDetectionProvider.java
+* app\src\main\java\com\ict\wq\ToastUtil.java
+* app\src\main\java\com\ict\wq\TrajectoryMatchThread.java
+* app\src\main\java\com\ict\wq\TrajectoryMatchThread617.java
+* app\src\main\java\com\ict\wq\Utils.java
+* app\src\main\java\com\ict\wq\model\
+* app\src\main\java\com\ict\wq\model\OneTime.java
+* app\src\main\java\com\ict\wq\model\Segment.java
+* app\src\main\java\com\ict\wq\model\SegmentList.java
+* app\src\main\java\com\ict\wq\wq.java
+* app\src\main\java\com\wzg\
+* app\src\main\java\com\wzg\dingwei\
+* app\src\main\java\com\wzg\dingwei\Adjust.java
+* app\src\main\java\com\wzg\dingwei\Adjust3.java
+* app\src\main\java\com\wzg\dingwei\BluetoothDataUtil.java
+* app\src\main\java\com\wzg\dingwei\BluetoothService.java
+* app\src\main\java\com\wzg\dingwei\BluetoothService232.java
+* app\src\main\java\com\wzg\dingwei\BluetoothState.java
+* app\src\main\java\com\wzg\dingwei\ByteBuffer.java
+* app\src\main\java\com\wzg\dingwei\DataCenter.java
+* app\src\main\java\com\wzg\dingwei\DebugThread.java
+* app\src\main\java\com\wzg\dingwei\FindLine.java
+* app\src\main\java\com\wzg\dingwei\FindRot.java
+* app\src\main\java\com\wzg\dingwei\LogFile.java
+* app\src\main\java\com\wzg\dingwei\ManPos.java
+* app\src\main\java\com\wzg\dingwei\MapView.java
+* app\src\main\java\com\wzg\dingwei\Speek.java
+* app\src\main\java\com\wzg\dingwei\TCPSocketClient.java
+* app\src\main\java\com\wzg\dingwei\UDPSocketClient.java
+* app\src\main\java\com\wzg\dingwei\Utility.java
+* app\src\main\java\com\wzg\dingwei\VideoService.java
+* app\src\main\java\com\wzg\dingwei\WifiAutoConnectManager.java
+* app\src\main\java\com\wzg\dingwei\setting\
+* app\src\main\java\com\wzg\dingwei\setting\AbnfSettings.java
+* app\src\main\java\com\wzg\dingwei\setting\IatSettings.java
+* app\src\main\java\com\wzg\dingwei\setting\UnderstanderSettings.java
+* app\src\main\java\com\wzg\dingwei\util\
+* app\src\main\java\com\wzg\dingwei\util\ApkInstaller.java
+* app\src\main\java\com\wzg\dingwei\util\JsonParser.java
+* app\src\main\java\com\wzg\dingwei\util\SettingTextWatcher.java
+* app\src\main\java\com\wzg\dingwei\util\Utils.java
+* app\src\main\java\com\wzg\dingwei\util\XmlParser.java
+* app\src\main\java\net\
+* app\src\main\java\net\majorkernelpanic\
+* app\src\main\java\net\majorkernelpanic\spydroid\
+* app\src\main\java\net\majorkernelpanic\spydroid\SpydroidApplication.java
+* app\src\main\java\net\majorkernelpanic\spydroid\Utilities.java
+* app\src\main\java\net\majorkernelpanic\spydroid\ui\
+* app\src\main\java\net\majorkernelpanic\spydroid\ui\HandsetFragment.java
+* app\src\main\java\net\majorkernelpanic\spydroid\ui\SpydroidActivity.java
+* app\src\main\java\net\majorkernelpanic\spydroid\ui\TabletFragment.java
+* app\src\main\jniLibs\
+* app\src\main\jniLibs\armeabi\
+* app\src\main\jniLibs\armeabi\libamapv304.so
+* app\src\main\jniLibs\armeabi\libamapv304ex.so
+* app\src\main\res\
+* app\src\main\res\anim\
+* app\src\main\res\anim\loading.xml
+* app\src\main\res\anim\pulse.xml
+* app\src\main\res\drawable-hdpi\
+* app\src\main\res\drawable-hdpi\background.png
+* app\src\main\res\drawable-hdpi\cancel.9.png
+* app\src\main\res\drawable-hdpi\cancel_p.9.png
+* app\src\main\res\drawable-hdpi\checkbox_off.png
+* app\src\main\res\drawable-hdpi\checkbox_on.png
+* app\src\main\res\drawable-hdpi\f7.png
+* app\src\main\res\drawable-hdpi\ic_launcher.png
+* app\src\main\res\drawable-hdpi\icon.png
+* app\src\main\res\drawable-hdpi\location_marker.png
+* app\src\main\res\drawable-hdpi\ok.9.png
+* app\src\main\res\drawable-hdpi\ok_d.9.png
+* app\src\main\res\drawable-hdpi\ok_p.9.png
+* app\src\main\res\drawable-hdpi\quit.png
+* app\src\main\res\drawable-hdpi\settings.png
+* app\src\main\res\drawable-hdpi\superman.png
+* app\src\main\res\drawable-ldpi\
+* app\src\main\res\drawable-ldpi\ic_launcher.png
+* app\src\main\res\drawable-ldpi\icon.png
+* app\src\main\res\drawable-ldpi\quit.png
+* app\src\main\res\drawable-ldpi\settings.png
+* app\src\main\res\drawable-mdpi\
+* app\src\main\res\drawable-mdpi\ic_launcher.png
+* app\src\main\res\drawable-mdpi\icon.png
+* app\src\main\res\drawable-mdpi\quit.png
+* app\src\main\res\drawable-mdpi\settings.png
+* app\src\main\res\drawable-xhdpi\
+* app\src\main\res\drawable-xhdpi\ic_launcher.png
+* app\src\main\res\drawable\
+* app\src\main\res\drawable\bluetooth32.png
+* app\src\main\res\drawable\bluetoothgray32.png
+* app\src\main\res\drawable\border.xml
+* app\src\main\res\drawable\cancel_button.xml
+* app\src\main\res\drawable\dir.png
+* app\src\main\res\drawable\f7.svg
+* app\src\main\res\drawable\fireman.png
+* app\src\main\res\drawable\firemangray.png
+* app\src\main\res\drawable\groundoverlay.png
+* app\src\main\res\drawable\ict.png
+* app\src\main\res\drawable\loading_01.png
+* app\src\main\res\drawable\loading_02.png
+* app\src\main\res\drawable\loading_03.png
+* app\src\main\res\drawable\loading_04.png
+* app\src\main\res\drawable\loading_05.png
+* app\src\main\res\drawable\loading_06.png
+* app\src\main\res\drawable\loading_07.png
+* app\src\main\res\drawable\logopng.png
+* app\src\main\res\drawable\ok_button.xml
+* app\src\main\res\drawable\pressednooutborder.xml
+* app\src\main\res\drawable\preview.xml
+* app\src\main\res\drawable\whiteborder.xml
+* app\src\main\res\drawable\whitenooutborder.xml
+* app\src\main\res\layout\
+* app\src\main\res\layout\activity_current_weather_report.xml
+* app\src\main\res\layout\activity_fire_man.xml
+* app\src\main\res\layout\activity_fire_man0613.xml
+* app\src\main\res\layout\activity_fire_man_head.xml
+* app\src\main\res\layout\activity_future_weather_report.xml
+* app\src\main\res\layout\activity_geofence.xml
+* app\src\main\res\layout\activity_gps.xml
+* app\src\main\res\layout\activity_gps_location.xml
+* app\src\main\res\layout\activity_main.xml
+* app\src\main\res\layout\activity_multy_location.xml
+* app\src\main\res\layout\activity_net_location.xml
+* app\src\main\res\layout\activity_sample.xml
+* app\src\main\res\layout\activity_start.xml
+* app\src\main\res\layout\activity_test.xml
+* app\src\main\res\layout\activity_welcome.xml
+* app\src\main\res\layout\launcher.xml
+* app\src\main\res\layout\loading_process_dialog_anim.xml
+* app\src\main\res\layout\main.xml
+* app\src\main\res\layout\polyline_activity.xml
+* app\src\main\res\layout\preview.xml
+* app\src\main\res\layout\serverlogin.xml
+* app\src\main\res\layout\spydroid.xml
+* app\src\main\res\layout\superman_alertdialog.xml
+* app\src\main\res\layout\tablet.xml
+* app\src\main\res\menu\
+* app\src\main\res\menu\fire_man.xml
+* app\src\main\res\menu\menu.xml
+* app\src\main\res\menu\sample.xml
+* app\src\main\res\values-w820dp\
+* app\src\main\res\values-w820dp\dimens.xml
+* app\src\main\res\values\
+* app\src\main\res\values\arrays.xml
+* app\src\main\res\values\colors.xml
+* app\src\main\res\values\dimens.xml
+* app\src\main\res\values\strings.xml
+* app\src\main\res\values\styles.xml
+* app\src\main\res\xml\
+* app\src\main\res\xml\abnf_setting.xml
+* app\src\main\res\xml\accessory_filter.xml
+* app\src\main\res\xml\iat_setting.xml
+* app\src\main\res\xml\preferences.xml
+* app\src\main\res\xml\tts_setting.xml
+* app\src\main\res\xml\understand_setting.xml
+* app\src\main\resources\
+* app\src\main\resources\com\
+* app\src\main\resources\com\wzg\
+* app\src\main\resources\com\wzg\dingwei\
+* app\src\main\resources\com\wzg\dingwei\proguard-project.txt
+* build.gradle
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* hs_err_pid10020.log
+* hs_err_pid10896.log
+* hs_err_pid10952.log
+* hs_err_pid9480.log
+* hs_err_pid9772.log
+* hs_err_pid9908.log
+* ic_launcher-web.png
+* proguard\
+* proguard\dump.txt
+* proguard\mapping.txt
+* proguard\seeds.txt
+* proguard\usage.txt
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\acra-4.4.0.jar => app\libs\acra-4.4.0.jar
+* libs\AMap_3DMap_V2.4.0.jar => app\libs\AMap_3DMap_V2.4.0.jar
+* libs\Android_Location_V1.3.1.jar => app\libs\Android_Location_V1.3.1.jar
+* libs\armeabi\libamapv304.so => app\src\main\jniLibs\armeabi\libamapv304.so
+* libs\armeabi\libamapv304ex.so => app\src\main\jniLibs\armeabi\libamapv304ex.so
+* libs\commons-math3-3.5.jar => app\libs\commons-math3-3.5.jar
+* libs\Jama-1.0.3.jar => app\libs\Jama-1.0.3.jar
+* libs\jxl.jar => app\libs\jxl.jar
+* libs\SpeechApi.jar => app\libs\SpeechApi.jar
+* lint.xml => app\lint.xml
+* proguard-project.txt => app\proguard-project.txt
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* src\com\wzg\dingwei\proguard-project.txt => app\src\main\resources\com\wzg\dingwei\proguard-project.txt
+* ict.PNG => ict.png
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

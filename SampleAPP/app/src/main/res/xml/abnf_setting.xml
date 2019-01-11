@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" > 
+    
+    <ListPreference
+        android:key="abnf_engine_preference"
+        android:title="识别引擎选择"
+        android:entries="@array/abnf_engine_entries"
+        android:entryValues="@array/engine_values"
+        android:defaultValue="cloud" />
+    
+<!--     <ListPreference -->
+<!--         android:key="abnf_language_preference" -->
+<!--         android:title="语言设置" -->
+<!--         android:entries="@array/language_entries" -->
+<!--         android:entryValues="@array/language_values" -->
+<!--         android:defaultValue="zh_cn"  /> -->
+
+	
+	<EditTextPreference
+        android:defaultValue="4000"
+        android:dialogTitle="请输入时间(0-10000)ms"
+        android:key="abnf_vadbos_preference"
+        android:summary="默认值：短信转写5000，其他4000"
+        android:title="前端点超时" />
+    <EditTextPreference
+        android:defaultValue="700"
+        android:dialogTitle="请输入时间(0-10000)ms"
+        android:key="abnf_vadeos_preference"
+        android:summary="默认值：短信转写1800，其他700 "
+        android:title="后端点超时" />
+
+<!--     <ListPreference -->
+<!--         android:defaultValue="1" -->
+<!--         android:entries="@array/punc_entries" -->
+<!--         android:entryValues="@array/punc_values" -->
+<!--         android:key="abnf_punc_preference" -->
+<!--         android:title="标点符号" /> -->
+</PreferenceScreen>
+
+

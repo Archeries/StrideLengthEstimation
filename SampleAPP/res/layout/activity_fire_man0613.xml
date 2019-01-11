@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView_showMessages"
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:layout_weight="1.09" >
+
+        <LinearLayout
+            android:id="@+id/scroll_child"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:orientation="vertical" >
+
+            <include
+                android:id="@+id/indoor_switchfloor_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/map"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+              
+                layout="@layout/activity_fire_man_head"
+                android:background="#88000000" />
+
+            <com.amap.api.maps.MapView
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="393dp" >
+            </com.amap.api.maps.MapView>
+
+            <TextView
+                android:id="@+id/TV_record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" " />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

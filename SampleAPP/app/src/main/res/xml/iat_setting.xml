@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" > 
+    
+<!--         <ListPreference -->
+<!--             android:key="engine_preference" -->
+<!--             android:title="合成引擎选择" -->
+<!--             android:entries="@array/engine_entries" -->
+<!--             android:entryValues="@array/engine_values" -->
+<!--             android:defaultValue="local" />  -->
+
+<!--         <ListPreference -->
+<!--             android:key="result_pre" -->
+<!--             android:title="返回结果格式" -->
+<!--             android:entries="" -->
+<!--             android:entryValues="" -->
+<!--             android:defaultValue="" />  -->
+	
+    <ListPreference
+        android:key="iat_language_preference"
+        android:title="语言设置"
+        android:entries="@array/language_entries"
+        android:entryValues="@array/language_values"
+        android:defaultValue="zh_cn"  />
+    
+    <EditTextPreference
+        android:key="iat_vadbos_preference"   
+		android:title="前端点超时" 
+        android:summary="默认值：短信转写5000，其他4000"
+		android:dialogTitle="请输入时间(0-10000)ms"
+		android:defaultValue="5000" />
+    
+    <EditTextPreference
+        android:key="iat_vadeos_preference"   
+		android:title="后端点超时" 
+        android:summary="默认值：短信转写1800，其他700 "
+		android:dialogTitle="请输入时间(0-10000)ms"
+		android:defaultValue="1800" />
+    
+<!--     <ListPreference  -->
+<!--         android:name="domain_preference" -->
+<!--         android:title="应用领域" -->
+<!--         android:entries="@array/domain_entries" -->
+<!--         android:entryValues="@array/domain_values" -->
+<!--         android:defaultValue="iat" /> -->
+    
+<!--     <ListPreference -->
+<!--         android:name="accent_preference" -->
+<!--         android:title="语言区域" -->
+<!--         android:entries="@array/accent_entries" -->
+<!--         android:entryValues="@array/accent_values" -->
+<!--         android:defaultValue="mandarin" /> -->
+    
+<!--     <ListPreference  -->
+<!--         android:name="scene_preference" -->
+<!--         android:title="场景" -->
+<!--         android:entries="@array/scene_entries" -->
+<!--         android:entryValues="@array/scene_values" -->
+<!--         android:defaultValue="all" /> -->
+    
+    <ListPreference
+        android:key="iat_punc_preference"
+        android:title="标点符号"
+        android:entries="@array/punc_entries"
+        android:entryValues="@array/punc_values"
+        android:summary="对弹出框无效"
+        android:defaultValue="1"  />
+    
+<!--     <CheckBoxPreference -->
+<!--         android:key="nbest_preference" -->
+<!--         android:title="@string/set_multiple_candidate_title" -->
+<!--         android:summary="@string/set_multiple_candidate_summary" -->
+<!--         android:defaultValue="false" /> -->
+
+</PreferenceScreen>
+
