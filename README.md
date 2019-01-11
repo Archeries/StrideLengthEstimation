@@ -12,9 +12,8 @@
     API Android version: 26
     Android version Release: 8.0
  
-    Data format: 'flag; Acc_X(m/s^2); Acc_Y(m/s^2); Acc_Z(m/s^2); Gyr_X(rad/s); Gyr_Y(rad/s); Gyr_Z(rad/s); Mag_X(uT); Mag_Y(uT); Mag_Z(uT); SensorTimestamp(s); stride-length(m), stride number, and cumulative walking-distance(m)'
-    Each line (a sample) contain 14 columns. The first column is a flag, the next nine columns are the nine degree-of-freedom sensor data from the smartphone embedded sensors. The last three columns represent the current stride-length, stride number, and cumulative walking-distance, respectively. Therefore, the last three columns of each stride (contains about 120 samples(lines) since the sampling rate was set to 100 Hz) are constant value.
-
+    Data format: 'flag; Acc_X(m/s^2); Acc_Y(m/s^2); Acc_Z(m/s^2); Gyr_X(rad/s); Gyr_Y(rad/s); Gyr_Z(rad/s); Mag_X(uT); Mag_Y(uT); Mag_Z(uT); SensorTimestamp(s); stride-length(m); stride number; cumulative walking-distance(m)'
+  Each line (a sample) contain 14 columns. The first column is a flag, the next nine columns are the nine degree-of-freedom sensor data from the smartphone embedded sensors. The last three columns represent the current stride-length, stride number, and cumulative walking-distance, respectively. Therefore, the last three columns of each stride (contains about 120 samples(lines) since the sampling rate was set to 100 Hz) are constant value.
   The sensor is sampled at 100 Hz.
   Throughout the datasets, the users hold the phone in their hand in front of their chest. 
   The foot-mounted module is attached to the instep of the right foot of the pedestrian.
